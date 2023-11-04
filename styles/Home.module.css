@@ -86,17 +86,21 @@
   display: grid;
   grid-template-columns: 30px 1fr auto;
   gap: 10px;
+  height: 30px;
 }
 
 .brandLogo {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .notNative {
   color: tomato;
+}
+.itsNative {
+  color: green;
 }
 
 @media (max-width: 600px) {

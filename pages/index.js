@@ -7,6 +7,7 @@ const options = source.map((o) => ({
   label: o.text,
   value: o.text,
   logo: o.logo,
+  isNative: o.isNative,
 }));
 
 const Option = (props) => {
@@ -15,7 +16,11 @@ const Option = (props) => {
       <div className={styles.brandLine}>
         <img src={props.data.logo} className={styles.brandLogo} />
         {props.children}
-        <span className={styles.notNative}>🚫 Yerli değil</span>
+        {props.data.isNative ? (
+          <span className={styles.itsNative}>✅ Yerli marka</span>
+        ) : (
+          <span className={styles.notNative}>🚫 Yerli değil</span>
+        )}
       </div>
     </components.Option>
   );

@@ -893,7 +893,36 @@ const source = [
   },
   {
     logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/102014/logo_cassandre-ysl.png",
-    text: "Yves Saint Laurent Beauty / YSL Beauty",
+    text: "Yves Saint Laurent Beauty",
+  },
+  {
+    logo: "https://www.coca-cola.com/content/dam/onexp/tr/tr/damla/elazig-kaynagimiz/tr_damla_logo_180x180.png",
+    text: "Damla Su",
+  },
+  {
+    logo: "https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static/img/logo.svg",
+    text: "Kahve Dünyası",
+    isNative: true,
+  },
+  {
+    logo: "https://mado.com.tr/wp-content/uploads/2022/08/Mado-Logo.png",
+    text: "Mado",
+    isNative: true,
+  },
+  {
+    logo: "https://ideacdn.net/idea/jc/45/themes/selftpl_615bfaae409c1/assets/uploads/logo.png",
+    text: "Boron",
+    isNative: true,
+  },
+  {
+    logo: "https://torku.com.tr/css/images/main-logo.png",
+    text: "Torku",
+    isNative: true,
+  },
+  {
+    logo: "https://www.tat.com.tr/images/tatGaleri/tat-logo_1.png",
+    text: "Tat",
+    isNative: true,
   },
 ];
 
