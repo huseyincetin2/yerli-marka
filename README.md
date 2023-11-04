@@ -7,3 +7,7 @@ https://yerli-marka.vercel.app/
 
 - Yerli listeler eklenecek
 - Yabancı markaların alternatifleri sunulacak
+
+## Katılım
+
+Katılım yapmak için issues kısmından içeriklere yardımcı olabilirsiniz.
