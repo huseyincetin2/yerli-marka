@@ -186,6 +186,7 @@ const source = [
   {
     logo: "https://cdn.sanity.io/images/92ui5egz/production/5b3550003de32697bef8264cca1e4e222dab891e-1920x1080.jpg?rect=420,0,1080,1080&w=375&h=375&fit=crop&auto=format",
     text: "Cif",
+    country: "Fransa",
   },
   {
     logo: "https://i.pinimg.com/280x280_RS/e5/76/34/e5763410888540ccff2a9f8d4c18dacc.jpg",
@@ -580,7 +581,7 @@ const source = [
     text: "Nesquik",
   },
   {
-    logo: "https://cdn.worldvectorlogo.com/logos/nestle-5.svg",
+    logo: "https://bsykurumsal.com/wp-content/uploads/2021/09/nestle-logo-bsy-300x159.png",
     text: "Nestle",
   },
   {
@@ -900,6 +901,59 @@ const source = [
     text: "Damla Su",
   },
   {
+    logo: "https://files.sikayetvar.com/lg/cmp/51/51867.png?1522650125",
+    text: "İpana Diş macunu",
+  },
+  {
+    logo: "https://www.omo.com/images/h0nadbhvm6m4/2UP1dC1d9a7YPyCbQFq1nA/366da257cf93ccdf367bedde905e60c6/T01PLWxvZ28tVFIuanBn/160w-97h/omo-logosu.avif",
+    text: "Omo Deterjan",
+    country: "Hollanda",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/tr/3/3d/Ace-logo.png",
+    text: "Ace Deterjan",
+    country: "ABD",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Finish_logo.jpg",
+    text: "Finish Deterjan",
+    country: "ABD",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Pril-Logo.svg",
+    text: "Pril",
+    country: "Almanya",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/tr/8/8f/Perwoll-logo.png?20180327060230",
+    text: "Perwoll",
+    country: "Almanya",
+  },
+  {
+    logo: "http://ozmumcu.com.tr/wp-content/uploads/2017/05/vernel.jpg",
+    text: "Vernel",
+    country: "Almanya",
+  },
+  {
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-PVtXDhiag7Wma1mkewlf74ua6ckbkv5KPZMsNuEB2ij8c8SSeGrYXe4izBbMjbYcHQ&usqp=CAU",
+    text: "Prima",
+    country: "Almanya",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Calgon_RB_logo.png?20180328062018",
+    text: "Calgon",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dalin_logo.png",
+    text: "Dalin",
+    isNative: true,
+  },
+  {
+    logo: "https://www.abcdeterjan.com.tr/wp-content/uploads/logo.png",
+    text: "ABC Deterjan",
+    isNative: true,
+  },
+  {
     logo: "https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static/img/logo.svg",
     text: "Kahve Dünyası",
     isNative: true,
@@ -922,6 +976,16 @@ const source = [
   {
     logo: "https://www.tat.com.tr/images/tatGaleri/tat-logo_1.png",
     text: "Tat",
+    isNative: true,
+  },
+  {
+    logo: "https://bingo.com.tr/wp-content/themes/bingo/image/bingo_logo2.png",
+    text: "Bingo",
+    isNative: true,
+  },
+  {
+    logo: "https://market.babyturco.com.tr/Themes/Default/Content/images/logo.png",
+    text: "Baby Turco",
     isNative: true,
   },
 ];
