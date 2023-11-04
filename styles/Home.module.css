@@ -3,6 +3,10 @@
   max-width: 450px;
 }
 
+.paragraph {
+  max-width: 450px;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 1.5rem;

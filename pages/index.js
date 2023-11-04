@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Select, { components } from "react-select";
 import source from "../utils/source";
 
+const total = source.length;
 const options = source.map((o) => ({
   label: o.text,
   value: o.text,
@@ -43,6 +44,10 @@ export default function Home() {
           placeholder="Arama"
           noOptionsMessage={() => "Sonuç bulunamadı!"}
         />
+        <p className={styles.paragraph}>
+          Toplam <b>{total}</b> marka incelendi ve hızla yenileri incelenmeye ve
+          eklenmeye devam ediyor.
+        </p>
       </main>
 
       <footer>
