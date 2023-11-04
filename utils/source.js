@@ -32,6 +32,7 @@ const source = [
     text: "Always",
   },
   {
+    logo: "https://i.pinimg.com/564x/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg",
     text: "Amazon",
   },
   {
@@ -227,6 +228,7 @@ const source = [
     text: "Dasani Water",
   },
   {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
     text: "Dell",
   },
   {
@@ -278,6 +280,7 @@ const source = [
     text: "Estee Lauder",
   },
   {
+    logo: "https://berkgida.com/wp-content/uploads/2021/02/ofixfairylogo.jpg",
     text: "Fairy",
   },
   {
@@ -303,9 +306,6 @@ const source = [
   {
     logo: "https://mms.businesswire.com/media/20230510006090/en/827135/22/Fiverr_September_2020_Logo.jpg",
     text: "Fiverr",
-  },
-  {
-    text: "Flash",
   },
   {
     logo: "https://www.infologue.com/wp-content/uploads/2021/08/G4S-Logo.png",
