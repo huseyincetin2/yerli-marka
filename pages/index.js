@@ -53,7 +53,7 @@ export default function Home() {
       <footer>
         <div>Son güncelleme:</div>
         <div>
-          <b>04.11.2023 20:02</b>
+          <b>04.11.2023 22:33</b>
         </div>
       </footer>
 

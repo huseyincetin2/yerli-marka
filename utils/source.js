@@ -674,7 +674,7 @@ const source = [
   },
   {
     logo: "https://www.nestle.com/sites/default/files/styles/thumbnail/public/pure-life-logo-square.png",
-    text: "Pure Life",
+    text: "Nestle Pure Life",
   },
   {
     logo: "https://www.nestle.com/sites/default/files/styles/thumbnail/public/purina-logo-square-2023.png",
@@ -986,6 +986,26 @@ const source = [
   {
     logo: "https://market.babyturco.com.tr/Themes/Default/Content/images/logo.png",
     text: "Baby Turco",
+    isNative: true,
+  },
+  {
+    logo: "https://www.buzdagisu.com.tr/Content/images/buzdagi@2x.png",
+    text: "Buzdağı su",
+    isNative: true,
+  },
+  {
+    logo: "https://www.fuska.com.tr/Content/svg/fuska.svg",
+    text: "Fuska su",
+    isNative: true,
+  },
+  {
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRk_Pr5sxEoy-EbQG8Ys1WB1ry-ho9VyuIBBFH6ChKR9r4pS9HMA8tJp5yXEZF5JcIXQg&usqp=CAU",
+    text: "Eti",
+    isNative: true,
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%C3%9Clker_logo_%282%29.svg/300px-%C3%9Clker_logo_%282%29.svg.png",
+    text: "Ülker",
     isNative: true,
   },
 ];
