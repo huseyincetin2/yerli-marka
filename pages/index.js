@@ -4,12 +4,18 @@ import Select, { components } from "react-select";
 import source from "../utils/source";
 
 const total = source.length;
-const options = source.map((o) => ({
-  label: o.text,
-  value: o.text,
-  logo: o.logo,
-  isNative: o.isNative,
-}));
+const options = source
+  .sort((a, b) => {
+    if (a.text > b.text) return 1;
+    if (a.text < b.text) return -1;
+    return 0;
+  })
+  .map((o) => ({
+    label: o.text,
+    value: o.text,
+    logo: o.logo,
+    isNative: o.isNative,
+  }));
 
 const Option = (props) => {
   return (
@@ -53,7 +59,7 @@ export default function Home() {
       <footer>
         <div>Son güncelleme:</div>
         <div>
-          <b>04.11.2023 22:33</b>
+          <b>04.11.2023 23:11</b>
         </div>
       </footer>
 
