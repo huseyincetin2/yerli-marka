@@ -36,14 +36,13 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>Marka yerli mi?</h1>
-        <div style={{ width: "100%" }}>
-          <Select
-            options={options}
-            components={{ Option }}
-            placeholder="Arama"
-            noOptionsMessage={() => "Sonuç bulunamadı!"}
-          />
-        </div>
+        <Select
+          className={styles.searchBox}
+          options={options}
+          components={{ Option }}
+          placeholder="Arama"
+          noOptionsMessage={() => "Sonuç bulunamadı!"}
+        />
       </main>
 
       <footer>Tüm hakları açıktır.</footer>

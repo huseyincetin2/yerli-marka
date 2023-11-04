@@ -1,10 +1,14 @@
+.searchBox {
+  width: 100%;
+  max-width: 450px;
+}
+
 .container {
   min-height: 100vh;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .title a {
