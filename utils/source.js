@@ -1008,6 +1008,11 @@ const source = [
     text: "Ülker",
     isNative: true,
   },
+  {
+    logo: "https://bkm.com.tr/wp-content/uploads/2015/10/Troy-Logo-01.jpg",
+    text: "Troy Ödeme Sistemi",
+    isNative: true,
+  },
 ];
 
 export default source;
