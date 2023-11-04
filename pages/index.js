@@ -1,18 +1,31 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Select from "react-select";
+import Select, { components } from "react-select";
+import source from "../utils/source";
 
-const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
-];
+const options = source.map((o) => ({
+  label: o.text,
+  value: o.text,
+  logo: o.logo,
+}));
+
+const Option = (props) => {
+  return (
+    <components.Option {...props}>
+      <div className={styles.brandLine}>
+        <img src={props.data.logo} className={styles.brandLogo} />
+        {props.children}
+        <span className={styles.notNative}>🚫 Yerli değil</span>
+      </div>
+    </components.Option>
+  );
+};
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Marka yerli mi?</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,24 +33,15 @@ export default function Home() {
         <h1 className={styles.title}>Marka yerli mi?</h1>
         <div style={{ width: "100%" }}>
           <Select
-            className="react-select-container"
             options={options}
+            components={{ Option }}
             placeholder="Arama"
             noOptionsMessage={() => "Sonuç bulunamadı!"}
           />
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+      <footer>Tüm hakları açıktır.</footer>
 
       <style jsx>{`
         main {
@@ -55,24 +59,6 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
       `}</style>
 

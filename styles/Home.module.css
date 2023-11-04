@@ -82,6 +82,23 @@
   height: 1em;
 }
 
+.brandLine {
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: 10px;
+}
+
+.brandLogo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notNative {
+  color: tomato;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
