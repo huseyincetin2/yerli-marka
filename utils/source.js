@@ -944,6 +944,30 @@ const source = [
     text: "Calgon",
   },
   {
+    logo: "https://upload.wikimedia.org/wikipedia/tr/4/49/Fuse.Tea.Logo553da7db5c18868eef48626734f61ae8.jpg",
+    text: "Fuse Tea Ice Tea",
+  },
+  {
+    logo: "https://yt3.googleusercontent.com/O2U3odnncVFoQoMDjYlujM26u0X8xRDbv7QEyO4PGhayOHWOCK_16VKETxPlsxbYOehYhsI=s176-c-k-c0x00ffffff-no-rj",
+    text: "Netflix",
+  },
+  {
+    logo: "https://www.becel.com/tr-tr/-/media/Project/Upfield/Brands/Becel-NL/Becel-TR/Assets/Home/Becel-Logo_v4.png?h=229&iar=0&w=255&rev=-1",
+    text: "Becel",
+  },
+  {
+    logo: "https://images.ctfassets.net/e032syaxiyft/4ZhW7VEVJDBzuFmRLVBw6n/0b5b4cf7e05c710bd69c167c9c5a6d62/milka-logo-purple.png?fm=webp&q=80",
+    text: "Milka",
+  },
+  {
+    logo: "https://seeklogo.com/images/V/vichy-logo-D6FA698BF5-seeklogo.com.png",
+    text: "Vichy",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Helena_Rubinstein_%28logo%29.png/800px-Helena_Rubinstein_%28logo%29.png?20150827192741",
+    text: "Helena Rubinstein",
+  },
+  {
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dalin_logo.png",
     text: "Dalin",
     isNative: true,
@@ -1011,6 +1035,16 @@ const source = [
   {
     logo: "https://bkm.com.tr/wp-content/uploads/2015/10/Troy-Logo-01.jpg",
     text: "Troy Ödeme Sistemi",
+    isNative: true,
+  },
+  {
+    logo: "https://www.caykur.gov.tr/Design/Sources/img/CaykurLogo.png",
+    text: "Çaykur",
+    isNative: true,
+  },
+  {
+    logo: "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2040000/tabii-dijital-platform-2041030.jpg",
+    text: "tabii",
     isNative: true,
   },
 ];
