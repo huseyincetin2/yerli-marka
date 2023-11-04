@@ -45,7 +45,12 @@ export default function Home() {
         />
       </main>
 
-      <footer>Tüm hakları açıktır.</footer>
+      <footer>
+        <div>Son güncelleme:</div>
+        <div>
+          <b>04.11.2023 20:02</b>
+        </div>
+      </footer>
 
       <style jsx>{`
         main {
@@ -53,14 +58,16 @@ export default function Home() {
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: top;
           align-items: center;
         }
         footer {
           width: 100%;
           height: 100px;
+          color: #555;
           border-top: 1px solid #eaeaea;
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
         }
