@@ -1,1 +1,9 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Yerli / Yabancı Marka Bilgilendirme Uygulaması
+
+Aşağıdaki linkten demoya ulaşabilirsiniz.
+https://yerli-marka.vercel.app/
+
+## Yapılacaklar
+
+- Yerli listeler eklenecek
+- Yabancı markaların alternatifleri sunulacak
