@@ -37,12 +37,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Marka yerli mi?</title>
+        <title>Yerli mi?</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>Marka yerli mi?</h1>
+        <h1 className={styles.title}>Yerli mi?</h1>
         <Select
           className={styles.searchBox}
           options={options}
@@ -50,16 +50,26 @@ export default function Home() {
           placeholder="Arama"
           noOptionsMessage={() => "Sonuç bulunamadı!"}
         />
-        <p className={styles.paragraph}>
-          Toplam <b>{total}</b> marka incelendi ve hızla yenileri incelenmeye ve
-          eklenmeye devam ediyor.
-        </p>
+        <ul className={styles.paragraph}>
+          <li>
+            Toplam <b>{total}</b> marka incelendi ve hızla yenileri incelenmeye
+            ve eklenmeye devam ediliyor.
+          </li>
+          <li>
+            Markaların mülki hakklarının yerli olup olmamasına bakılıyor. Yerli
+            üretim olsa bile yabancı firmalara satılmış olan markalar "yerli
+            değil" olarak işaretleniyor.
+          </li>
+          <li>Ürünlerin kategorileri eklenecek.</li>
+          <li>Yabancı markaların yerli alternatifleri sunulacak.</li>
+          <li>Arama algoritması geliştiriliyor.</li>
+        </ul>
       </main>
 
       <footer>
         <div>Son güncelleme:</div>
         <div>
-          <b>05.11.2023 10:11</b>
+          <b>05.11.2023 15:57</b>
         </div>
       </footer>
 
