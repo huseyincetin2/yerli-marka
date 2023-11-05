@@ -1112,6 +1112,62 @@ const source = [
     text: "Colgate",
   },
   {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NIVEA_logo_2021.svg/500px-NIVEA_logo_2021.svg.png",
+    text: "Nivea",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/6bdb24abfd6840d487c3749ae39216e18a7d0e9f-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Calve",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/c09e97553976003d028f67faf1c6e70ea27d1609-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Clear",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/2911d0d3f813f5cdaf6e23daf08f82f769181c21-280x280.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Elidor",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/943993a8db766dce2e926194a96825f24fc87108-280x280.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Love Beauty",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/a6b12ac6de115a47b7aa0f5d7a50e1090c04dfe3-280x280.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Max",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/cd431df66b2269f56197bd7bed02947d380d7a0a-280x280.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Pure Line",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/c662c572b333f1617ee01c42219f84816656b724-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Rinso",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/a4a81910bfc826a63156a3416af5bb697f39fe6d-280x280.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Signal",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/dd3dcc512636a42d11c29a4938faad9576af116f-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Simple",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/b438bea176066ea29582033b70e610ce72789258-600x600.png?w=1400&h=1400&fit=crop&auto=format",
+    text: "Toni & Guy",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/2e567019d299a63e69c7cefa0a1bd0995c23ceb2-1080x1080.png?w=1400&h=1400&fit=crop&auto=format",
+    text: "Vaseline",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/de54474fdb1771dbba15a74dedb127a9df87ed53-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Vim",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/608f7d6ddf070c55d693604ceb8c79c7dede273f-1080x1080.jpg?w=1400&h=1400&fit=crop&auto=format",
+    text: "Yumoş",
+  },
+  {
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dalin_logo.png",
     text: "Dalin",
     isNative: true,
