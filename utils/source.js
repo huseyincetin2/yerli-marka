@@ -968,6 +968,150 @@ const source = [
     text: "Helena Rubinstein",
   },
   {
+    logo: "https://seeklogo.com/images/P/pringles-logo-62748614CC-seeklogo.com.png",
+    text: "Pringles",
+  },
+  {
+    logo: "https://smartmedia.digital4danone.com//is/image/danonecs/danone-logo-12?wid=320&fmt=png-alpha&fit=wrap",
+    text: "Danone",
+  },
+  {
+    logo: "https://images.squarespace-cdn.com/content/v1/5e31b33a1b5911193c47e7b5/279b45e0-3243-4e58-aee2-dd18403e2085/nike-swoosh-logo.jpeg?format=2500w",
+    text: "Nike",
+  },
+  {
+    logo: "https://1000logos.net/wp-content/uploads/2016/10/Adidas-logo-500x332.png",
+    text: "Adidas",
+  },
+  {
+    logo: "https://c-skc2-l.mncdn.com/images/skechers-rahat-ayakkabi.svg",
+    text: "Skechers",
+  },
+  {
+    logo: "https://www.bayer.com.tr/themes/custom/bayer_cpa/logo.svg",
+    text: "Bayer",
+  },
+  {
+    logo: "https://assets.bwbx.io/s3/navi/images/logoBBGwht-4230a564d3.svg",
+    text: "Bloomberg",
+  },
+  {
+    logo: "https://www.icim.com.tr/wp-content/uploads/2023/07/logo.png",
+    text: "İçim",
+  },
+  {
+    logo: "https://ferrero-lampd9-prod-static.s3.eu-west-1.amazonaws.com/crunchbar-com/s3fs-public/image/2022-11/CRUNCH-BAR-1.png",
+    text: "Crunch",
+  },
+  {
+    logo: "https://cdn.sanity.io/images/92ui5egz/production/3e341a8fac281888087b10bf0889add46c7cef3e-280x280.jpg?w=750&h=750&fit=crop&auto=format",
+    text: "Algida",
+  },
+  {
+    logo: "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png",
+    text: "Linkedin",
+  },
+  {
+    logo: "https://prd-cdn-emea1-joltx.pgsitecore.com/-/jssmedia/growing-families-version1/gf-tr/brand/logo/brand_logos/alo.ashx?h=0&w=320&rev=317c13575e40410bb55deda84ffe5e19&hash=48079584D735A959FC87110BA3932678&mw=0&mh=0&iar=0&as=0&sc=0",
+    text: "Alo",
+  },
+  {
+    logo: "https://cdn.dentiss.com/fileSource/yaziFoto/big/fixodent-artik-tu_fX.jpg",
+    text: "Fixodent",
+  },
+  {
+    logo: "https://www.logovector.org/wp-content/uploads/logos/png/o/orkid_logo.png",
+    text: "Orkid",
+  },
+  {
+    logo: "https://reckitt.com/static/f436eac42f7cda147e4dce5b48d65fb2/4162e/cillit-bang-v2-1.webp",
+    text: "Cillit Bang",
+  },
+  {
+    logo: "https://reckitt.com/static/ec06ec90ad67325a87061dd2cf34db69/4162e/durex-logo-1.webp",
+    text: "Durex",
+  },
+  {
+    logo: "https://reckitt.com/static/477e541b1f09ceba5a995ccb36ed9f9d/4162e/gaviscon.webp",
+    text: "Gaviscon",
+  },
+  {
+    logo: "https://reckitt.com/static/174d24f53d0e163dba5a6bfa72e9ef9c/4162e/all-brands-223x150px.webp",
+    text: "Nurofen",
+  },
+  {
+    logo: "https://reckitt.com/static/2cbbd2a0f1c61ba526e8d83687ba6da2/4162e/vanish.webp",
+    text: "Vanish",
+  },
+  {
+    logo: "https://reckitt.com/static/89f7a727efb617547d513a15ad0fb44c/4162e/veet.webp",
+    text: "Veet",
+  },
+  {
+    logo: "https://reckitt.com/static/8c058ddcb4ba0abb607d9dd3d2289e63/4162e/strepsils.webp",
+    text: "Strepsils",
+  },
+  {
+    logo: "https://reckitt.com/static/8c058ddcb4ba0abb607d9dd3d2289e63/4162e/strepsils.webp",
+    text: "Nutramigen",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-jb_new_1.png",
+    text: "Johnson's Baby",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-neutrogena_new.png",
+    text: "Neutrogena",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-listerine.png",
+    text: "Listerine",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-lpm_0.png",
+    text: "Le Petit Marseillas",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/ogx_logo_0.jpg",
+    text: "Ogx",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/neostrata_logo.jpg",
+    text: "Neostrata",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-carefree_new.png",
+    text: "Carefree",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-ob_0.png",
+    text: "Ob",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-desitin_v2.png",
+    text: "Desitin",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-pizbuin.png",
+    text: "Piz buin",
+  },
+  {
+    logo: "https://www.jnjconsumer.com.tr/sites/brandhub_tr/files/taco-images/tr-cc.png",
+    text: "Clean & Clear",
+  },
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c8/Kotex_logo.png/800px-Kotex_logo.png",
+    text: "Kotex",
+  },
+  {
+    logo: "https://seeklogo.com/images/E/engelbert-strauss-logo-170C048F15-seeklogo.com.png",
+    text: "Strauss",
+  },
+  {
+    logo: "https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/global/logos/colgate-smile-badge.svg",
+    text: "Colgate",
+  },
+  {
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dalin_logo.png",
     text: "Dalin",
     isNative: true,
@@ -1045,6 +1189,11 @@ const source = [
   {
     logo: "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2040000/tabii-dijital-platform-2041030.jpg",
     text: "tabii",
+    isNative: true,
+  },
+  {
+    logo: "https://www.sutas.com.tr/assets/img/sutas-logo-v2.webp",
+    text: "Sütaş",
     isNative: true,
   },
 ];
